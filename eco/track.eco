@@ -1,0 +1,9 @@
+  <div class="track__image" style="background-image:url(<%= @model.get('artwork_url')%>)">
+    <img id="img_<%= @model.trackIndex %>"src="<%= @model.get('artwork_url')%>" alt="">
+  </div>
+  <div class="track__info">
+    <h1 class="track__artist"><%= @model.get('user').username %></h1>
+    <h2 class="track__title"><%= @model.get('title') %></h2>
+  </div>
+
+  <audio id="source<%= @model.trackIndex %>" preload='none' data-track-index="<%= @model.trackIndex %>" src="<%= @model.get('stream_url') %>?client_id=abba00fc569ecc9bd64fd225f4e7d6bc" ></audio>
