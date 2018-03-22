@@ -1,4 +1,16 @@
 [{
+  "channel_url": "../albumok/reincarnation.json",
+  "name": "Reincarnation"
+}, {
+  "channel_url": "../albumok/autumn-joints.json",
+  "name": "Autumn Joints"
+}, {
+  "channel_url": "../albumok/lagoon.json",
+  "name": "L a g o o n"
+}, {
+  "channel_url": "../albumok/collabs.json",
+  "name": "C o l l a b s"
+}, {
   "channel_url": "../albumok/nature-friend.json",
   "name": "Nature Friend"
 }, {
